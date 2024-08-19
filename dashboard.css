@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #212529;
+}
+
+
+/*
+ * Navbar
+ */
+
+ .navbar {
+  background-color: #563d7c;
+  color: #fff !important;
+  padding: 15px;
+ }
+
+ .navbar-brand img {
+  max-height: 20px;
+  filter: brightness(0) invert(1);
+  transition: all 0.5s;
+  margin-right: 10px;
+ }
+
+ .navbar-brand img:hover {
+  filter: none;
+ }
+
+
+/* 
+ * Conteudo central
+ */
+
+ .main-content {
+  background-color: #fff;
+  min-height: calc(100vh - 70px);
+ }
+
+
+ .table td,  .table th {
+  padding: 18px 15px 15px 15px !important;
+ }
+
+
+ /* 
+  * Formulário de Cadastro
+  */
+
+  .create-seller-page form input, 
+  .create-seller-page form select {
+    padding: 18px;
+  }
+
+  .btn {
+    padding: 15px;
+  }
